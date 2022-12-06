@@ -19,9 +19,6 @@
     color: #f5f5f5;
     font-family: 'Oswald', sans-serif;
     font-size: 120%;
-    right: 1px;
-    margin-top: 55px;
-    position:absolute;
 
 }
 #zag2 {
@@ -30,8 +27,6 @@
     color: #00ff6a;
     font-family: 'Oswald', sans-serif;
     font-size: 120%;
-    float:right;
-    margin-top: 115px;
 
     
 }
@@ -41,10 +36,6 @@
     color: #04ff00;
     font-family: 'Oswald', sans-serif;
     font-size: 120%;
-    margin-top: 80px;
-    position: absolute;
-    right: 8px
-
     
 }
 #zag4 {
@@ -53,8 +44,6 @@
     color: #00aeff;
     font-family: 'Oswald', sans-serif;
     font-size: 120%;
-    float:right;
-    margin-top: 210px;
 }
 
 .golovne {
@@ -86,13 +75,12 @@
 
 @media (min-width: 768px) and (max-width: 991.99px) { 
     .col-md-6 {
-        width: 100%;
-        
+        width: 50%;
     }
 }
 
 @media (max-width: 767.99px) {
-    .golovne{
+    .main{
         flex-direction: column;
     }
     .col-sm-12 {
